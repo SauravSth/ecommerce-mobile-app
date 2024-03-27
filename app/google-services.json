@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "383249713670",
+    "project_id": "e-commerce-store-c8600",
+    "storage_bucket": "e-commerce-store-c8600.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383249713670:android:a1b247afbd16d01655d187",
+        "android_client_info": {
+          "package_name": "com.example.saurav_shrestha_project2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7skyUyYt4ydDQHHC-xJlMOXjacY-EvDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

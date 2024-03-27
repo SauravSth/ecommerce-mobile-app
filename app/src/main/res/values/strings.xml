@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Saurav_Shrestha_Project2</string>
+
+    <!--    HOMEPAGE-->
+    <string name="btnHomeText">Go To App</string>
+
+    <!--    LOGIN PAGE-->
+    <string name="btnRegister_Login">Register</string>
+    <string name="btnLogin_Login">Login</string>
+    <string name="inputEmailHint_Login">Email</string>
+    <string name="inputPasswordHint_Login">Password</string>
+
+    <!--    REGISTER PAGE-->
+    <string name="btnRegister_Register">Register</string>
+    <string name="btnLogin_Register">Login</string>
+    <string name="inputUsernameHint_Register">Username</string>
+    <string name="inputEmailHint_Register">Email</string>
+    <string name="inputPasswordHint_Register">Password</string>
+    <string name="inputConfirmPasswordHint_Register">Confirm Password</string>
+</resources>
