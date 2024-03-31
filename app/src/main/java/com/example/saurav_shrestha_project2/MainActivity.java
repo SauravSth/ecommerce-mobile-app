@@ -1,8 +1,13 @@
 package com.example.saurav_shrestha_project2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,6 +15,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        int pageId = getIntent().getIntExtra("id", 0);
+
+        TextView pageId_Main = findViewById(R.id.pageId_Main);
+        pageId_Main.setText("PAGE: " + (pageId+1) );
     }
 }
 
